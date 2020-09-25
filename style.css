@@ -1,0 +1,103 @@
+
+.player_section{
+    margin-top: 25px;
+    display: flex;
+    width: 100%;
+    min-width: 30%;
+    display: flex;
+    justify-content: space-around;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: large;
+   letter-spacing: 2px;
+
+   font-style: bold;
+}
+
+.p1 h2{
+    margin-left:30px;
+}
+
+.com h2{
+    margin-left:35px;
+}   
+
+.im{
+ display: flex;
+ justify-content: space-around;
+ flex-wrap: wrap;
+ margin-top: 30px;
+ 
+}
+
+
+#ima1{
+    display: inline-block;
+    width: 80%;
+
+
+}
+
+
+
+#ima2{
+    display: inline-block;
+    width: 80%;
+
+}
+
+#ima{
+
+    width: 50%;
+}
+
+.op{
+    
+    width: 100%;
+    margin-top: 41px;
+    display: flex;
+    justify-content: space-around;
+    font-size: large;    
+  
+}
+button{
+    padding: 10px;
+    font-size: large;
+}
+
+.tag 
+{ display: flex;
+    justify-content: center;
+    font-size: x-large;
+    letter-spacing: 3px;
+}
+
+.win{
+    height: 100%;
+background-color: cadetblue;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+
+}
+
+.loss{
+    height: 100%;
+background-color: cornflowerblue;
+flex-direction: column;
+ justify-content: center;
+ align-items: center;
+          
+}
+
+#bt1:hover{
+
+    background-color: blue;
+}
+
+#bt2:hover{
+
+    background-color: cadetblue;
+}
+#bt3:hover{
+    background-color: darkgreen;
+}
